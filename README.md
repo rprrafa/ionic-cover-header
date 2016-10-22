@@ -1,0 +1,1 @@
+# ionic-cover-header-parallax
