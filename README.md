@@ -1,4 +1,4 @@
-# ionic-cover-header-parallax
+# Ionic Flex Header
 
 Flex header for Ionic 1.x
 
@@ -14,7 +14,7 @@ Sample with image example
 </cover-header-parallax>
 ```
 
-1. header-size it's the max header value, by default it's 200px;
+1. header-size it's the max header height, by default it's 200px;
 2. bg-color is an array cwith header background color in rgb, by default it's rgb(0, 121, 107);
 
 Also it's possible add other components, e.g ion-slide-box
