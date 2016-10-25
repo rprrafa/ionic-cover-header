@@ -1,10 +1,9 @@
 # ionic-cover-header-parallax
 
-Header flexível similar ao efeito do facebook para ionic 1.x
+Header flexível para ionic 1.x
 
-![alt text](https://github.com/rprrafa/ionic-cover-header-parallax/img/example1.png "Exemplo Simples")
-
-![alt text](https://github.com/rprrafa/ionic-cover-header-parallax/img/example2.png "Exemplo com Slide Box")
+![Alt text](/www/img/example1.gif "Exemplo simples")
+![Alt text](/www/img/example2.gif "Exemplo com ion-slide-box")
 
 ## Code Example
 Modo simples com imagem
