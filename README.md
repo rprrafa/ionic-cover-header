@@ -1,12 +1,12 @@
 # ionic-cover-header-parallax
 
-Header flexível para ionic 1.x
+Flex header for Ionic 1.x
 
-![Alt text](/www/img/example1.gif "Exemplo simples")
-![Alt text](/www/img/example2.gif "Exemplo com ion-slide-box")
+![Alt text](/www/img/example1.gif "Sample example")
+![Alt text](/www/img/example2.gif "Example with ion-slide-box")
 
 ## Code Example
-Modo simples com imagem
+Sample with image example
 ```html
 <cover-header-parallax header-size="200" bg-color="[0, 121, 107]">
     <!-- YOUR BACKGROUND COVER IMAGE HERE -->
@@ -14,10 +14,10 @@ Modo simples com imagem
 </cover-header-parallax>
 ```
 
-1. header-size é a altura máxima do header, o valor default é 200px;
-2. bg-color é um array com a cor de fundo do header em rgb, o valor default é rgb(0, 121, 107);
+1. header-size it's the max header value, by default it's 200px;
+2. bg-color is an array cwith header background color in rgb, by default it's rgb(0, 121, 107);
 
-Também é possível adicionar outros componentes, como por exemplo, ion-slide-box
+Also it's possible add other components, e.g ion-slide-box
 ```html
 <cover-header-parallax header-size="200" bg-color="[0, 121, 107]">
 	<ion-slide-box style="height: 100%;" show-pager="false">
@@ -34,12 +34,12 @@ Também é possível adicionar outros componentes, como por exemplo, ion-slide-b
 </cover-header-parallax>
 ```
 ## Installation
-Baixar e importar a diretiva
+Download and import directive at your project
 ```html
 <script src="js/cover-header-parallax.js"></script>
 ```
 
-Adicionar módulo 'rpCoverHeader'
+Add module 'rpCoverHeader'
 ```javascript
 angular.module('app', ['ionic', 'rpCoverHeader']);
 ```
