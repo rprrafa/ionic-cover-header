@@ -19,8 +19,9 @@ Sample with image example
 </ion-view>
 ```
 
-1. header-size it's the max header height, by default it's 200px;
-2. bg-color is an array cwith header background color in rgb, by default it's rgb(0, 121, 107);
+1. header-min it's the min header height, by default it's 44px for Android and 60px for iOS;
+2. header-max it's the max header height, by default it's 200px;
+3. bg-color is an array cwith header background color in rgb, by default it's rgb(0, 121, 107);
 
 Also it's possible add other components, e.g ion-slide-box
 ```html
