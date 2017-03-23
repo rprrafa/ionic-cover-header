@@ -9,7 +9,7 @@ Flex header for Ionic 1.x
 Sample with image example
 ```html
 <ion-view>
-	<cover-header-parallax header-size="200" bg-color="[0, 121, 107]">
+	<cover-header-parallax header-min="60" header-max="200" bg-color="[0, 121, 107]">
 	    <!-- YOUR BACKGROUND COVER IMAGE HERE -->
 	    <img src="img/cover-image.png">
 	</cover-header-parallax>
@@ -25,7 +25,7 @@ Sample with image example
 Also it's possible add other components, e.g ion-slide-box
 ```html
 <ion-view>
-	<cover-header-parallax header-size="200" bg-color="[0, 121, 107]">
+	<cover-header-parallax header-min="60" header-max="200" bg-color="[0, 121, 107]">
 		<ion-slide-box style="height: 100%;" show-pager="false">
 	      <ion-slide >
 		<div class="box blue" style="background: blue;height: 100%;"></div>

@@ -1,10 +1,10 @@
 <ion-view>
-<cover-header-parallax header-size="200" bg-color="[0, 121, 107]">
+<cover-header-parallax header-min="60" header-max="200" bg-color="[0, 121, 107]">
         <!-- YOUR COVER IMAGE -->
-        <!-- <img src="img/cover-image.png"> -->
+        <img src="img/cover-image.png">
 
         <!-- YOUR COVER SLIDE BOX -->
-        <ion-slide-box style="height: 100%;" show-pager="false">
+        <!-- <ion-slide-box style="height: 100%;" show-pager="false">
           <ion-slide >
             <div class="box blue" style="background: blue;height: 100%;"></div>
           </ion-slide>
@@ -14,11 +14,11 @@
           <ion-slide>
             <div class="box pink" style="background: pink;height: 100%;"></div>
           </ion-slide>
-        </ion-slide-box>
+        </ion-slide-box> -->
 
 </cover-header-parallax>
 
-<ion-content>
+<ion-content overflow-scroll="false" has-bouncing="false">
         <div class="list card">
           <div class="item item-avatar">
             <img src="http://ionicframework.com/img/docs/mcfly.jpg">
